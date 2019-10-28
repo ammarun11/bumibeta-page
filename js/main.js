@@ -15,7 +15,11 @@ const paralax = document.querySelectorAll('.parallax');
 M.Parallax.init(paralax);
 
 const produk = document.querySelectorAll('.carousel');
-M.Carousel.init(produk)
+M.Carousel.init(produk, {
+    // fullWidth: true,
+    padding: 200,
+
+})
 
 $(".dropdown-trigger").dropdown();
 
@@ -23,4 +27,8 @@ $(document).ready(function () {
     $('.scrollspy').scrollSpy({
         scrollOffset: 90,
     });
+});
+
+$(document).ready(function () {
+    $('.materialboxed').materialbox();
 });
