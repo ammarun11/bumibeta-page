@@ -1,124 +1,158 @@
+/* font-family: 'Quicksand', sans-serif;
+ */
+
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+
 .slider img {
-    /* background-size: cover !important; */
-    margin: auto;
-    position: relative !important;
+  /* background-size: cover !important; */
+  margin: auto;
+  position: relative !important;
 }
 
 .slider h3,
 .slider h5 {
-    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.9);
+  text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.9);
 }
 
 .about-text {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    line-height: 1.5;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
 
 }
 
 .donasi-gambar {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax-container {
-    height: 500px;
+  height: 500px;
 }
 
 .donasi-text {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .donasi-text h2 {
-    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .product-list {
-    margin-top: -100px;
-    height: 500px;
+  margin-top: -100px;
+  height: 500px;
 }
 
 #product {
-    padding: -1px;
+  padding: -1px;
 }
 
 /* utitlty */
 
 .tombol {
-    margin-top: 15px;
-    text-transform: uppercase;
-    border-radius: 40px;
-    background-color: #002BFF;
-    font-weight: bold;
+  margin-top: 15px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  background-color: #002BFF;
+  font-weight: bold;
 }
 
 .tombol-donasi {
-    margin-top: 15px;
-    text-transform: uppercase;
-    border-radius: 40px;
-    background-color: #FFFF;
-    color: #00A2FF;
-    font-weight: bold;
+  width: 200px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 100px;
+  background-color: #FFFF;
+  color: #00A2FF;
+  font-weight: bold;
 }
 
 #map {
-    height: 500px;
-    width: 100%;
+  height: 500px;
+  width: 100%;
 }
 
 #contact-us,
 #contact-us h3 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .icon-footer a {
-    margin-top: 15px;
-    margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .page-footer {
-    background-color: rgba(0, 0, 0, 0);
-    margin-bottom: 10px !important;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 10px !important;
+}
+
+.form-contact {
+  margin-top: 40px;
+}
+
+.form-contact form textarea {
+  box-sizing: border-box;
+  margin-left: 30px;
+  width: 95%;
+}
+
+.heart {
+  color: #e25555;
 }
 
 
 .slider::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    position: absolute;
-    bottom: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+h3,
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+  font-family: 'Open sans', sans-serif;
 }
 
 /* For website */
 
 @media (min-width: 992px) {
-    .bahasa {
-        border-right: 2px solid #FFFF;
-        margin-left: 50px;
-    }
+  .bahasa {
+    border-right: 2px solid #FFFF;
+    margin-left: 50px;
+  }
 
-    .visi-kami {
-        margin-top: 100px;
-    }
+  .visi-kami {
+    margin-top: 100px;
+  }
 
-    .visi-kami h5 {
-        font-size: 30px;
-        line-height: 1.5;
-        margin-left: 40px;
-    }
+  .visi-kami h5 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-left: 40px;
+  }
 
-    .misi-kami {
-        margin-top: 40px;
-    }
+  .misi-kami {
+    margin-top: 40px;
+  }
 
-    .misi-kami h5 {
-        font-size: 30px;
-        line-height: 1.5;
-        margin-left: 40px;
-    }
+  .misi-kami h5 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-left: 40px;
+  }
 
 }

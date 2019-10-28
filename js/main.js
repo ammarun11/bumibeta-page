@@ -6,8 +6,8 @@ M.Sidenav.init(elems);
 const slide = document.querySelectorAll('.slider');
 M.Slider.init(slide, {
     indicators: false,
-    height: 800,
-    duration: 900,
+    height: 900,
+    duration: 300,
     interval: 5000
 });
 
