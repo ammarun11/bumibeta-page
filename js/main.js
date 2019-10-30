@@ -7,8 +7,8 @@ const slide = document.querySelectorAll('.slider');
 M.Slider.init(slide, {
     indicators: false,
     height: 900,
-    duration: 300,
-    interval: 5000
+    duration: 200,
+    interval: 6000
 });
 
 const paralax = document.querySelectorAll('.parallax');

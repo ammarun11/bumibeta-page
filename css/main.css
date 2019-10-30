@@ -6,7 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 
-
+.slider {
+  height: 100px ;
+}
 .slider img {
   /* background-size: cover !important; */
   margin: auto;
@@ -60,6 +62,7 @@
 
 .img-product {
   margin-top: -100px;
+  width: 275px !important;
 }
 
 #product {
@@ -124,13 +127,13 @@
 
 
 .slider::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  position: absolute;
-  bottom: 0;
+  content: '' !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) !important;
+  position: absolute !important;
+  bottom: 0 !important;
 }
 
 h3,
