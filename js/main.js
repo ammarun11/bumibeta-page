@@ -7,7 +7,7 @@ const slide = document.querySelectorAll('.slider');
 M.Slider.init(slide, {
     indicators: false,
     height: 900,
-    duration: 200,
+    duration: 198,
     interval: 6000
 });
 
